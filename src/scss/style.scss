@@ -1,0 +1,13 @@
+@import 'fonts';
+@import 'globals';
+@import 'variables';
+@import './mixins/font-face';
+@import './vendor/normalize';
+// COMPONENTS //
+@import './components/header';
+@import './components/footer';
+@import './components/burger';
+@import './components/hero';
+@import './components/slider';
+@import './components/portfolio';
+@import './components/contact';

@@ -1,0 +1,51 @@
+.footer {
+  padding: 2rem 0;
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  &__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+.logo-name {
+  text-transform: uppercase;
+}
+
+.footer__title {
+  font-size: 1.75rem;
+  color: var(--clr-red);
+  text-transform: uppercase;
+}
+
+.footer__nav {
+  display: none;
+}
+
+.list {
+  display: flex;
+  gap: 2.75rem;
+}
+
+.socials {
+  display: flex;
+  gap: 5rem;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 5rem 0;
+  }
+  .footer__container {
+    gap: 3rem;
+  }
+  .footer__nav {
+    display: block;
+  }
+  .footer__title {
+    font-size: var(--fs-big);
+  }
+}

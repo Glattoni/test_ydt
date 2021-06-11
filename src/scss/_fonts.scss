@@ -1,0 +1,4 @@
+@import './mixins/font-face';
+
+@include font-face('Work Sans', '../fonts/WorkSans-Regular.woff2', 'woff2');
+@include font-face('Work Sans', '../fonts/WorkSans-SemiBold.woff2', 'woff2');
